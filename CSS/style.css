@@ -5,6 +5,10 @@ hr
     background-color:#12C6FE;
     border:0;
 }
+body
+{
+    height:100%;
+}
 a.home
 {
     text-decoration:none;
@@ -28,7 +32,6 @@ li:hover
 }
 html
 {
-    height:100%;
     font-family: "Verdana", sans-serif;
     background-color:black;
 }
@@ -37,19 +40,20 @@ html
     width:100%;
     padding:0 100px 0 100px;
     float:left;
-
+    color:white;
 }
 #sidebar
 {
     margin-left:-10px;
     margin-top:-10px;
     /*padding:10px;*/
-    position: absolute;
+    position: fixed;
     display:block;
     float:left;
     background-color:#55A879;
     height:100%;
     width:100px;
+
 }
 ul
 {
@@ -72,10 +76,6 @@ li
 h2
 {
     padding:0px 20px 0px 10px;
-}
-p
-{
-    color:white;
 }
 .highlight
 {

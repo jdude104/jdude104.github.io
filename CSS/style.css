@@ -37,7 +37,7 @@ html
 }
 #main
 {
-    width:100%;
+    /*width:100%;*/
     padding:0 100px 0 100px;
     float:left;
     color:white;
@@ -80,4 +80,20 @@ h2
 .highlight
 {
     color:#12C6FE;
+}
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+.logo
+{
+    width:300px;
+}
+.un
+{
+    background-color:#E81B4C;
+}
+#un
+{
+    color:#E81B4C;
 }

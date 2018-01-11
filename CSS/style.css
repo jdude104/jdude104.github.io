@@ -26,7 +26,7 @@ a
 {
     color:#553779;
 }
-li:hover
+li.nav:hover
 {
     background-color:#12C6FE;
 }
@@ -55,7 +55,7 @@ html
     width:100px;
 
 }
-ul
+ul.nav
 {
     list-style-type:none;
     padding:0px;

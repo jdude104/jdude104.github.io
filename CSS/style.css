@@ -110,3 +110,7 @@ div.char
 {
     clear: left;
 }
+img.barrier {
+    height: 482px;
+    width: 609px;
+}

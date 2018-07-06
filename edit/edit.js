@@ -247,7 +247,7 @@ function copyLink() {
 }
 
 function saveLink() {
-  var url = "/" + location.hash
+  var url = "hidden/itsy/" + location.hash
   window.history.pushState(null, null, url);
   location.reload()   
 }

@@ -193,7 +193,7 @@ var maxLengths = {
 function updateLink(url, title, push) {
   if (title) title = encodeURIComponent(title.trim().replace(/\s/g, "_"))
   if (url.length) {
-    url = "/#" + (title || "") + "/" + url
+    url = "hidden/itsy/#" + (title || "") + "/" + url
   } else {
     url = "/edit"
   }

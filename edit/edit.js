@@ -193,9 +193,9 @@ var maxLengths = {
 function updateLink(url, title, push) {
   if (title) title = encodeURIComponent(title.trim().replace(/\s/g, "_"))
   if (url.length) {
-    url = "hidden/itsy/#" + (title || "") + "/" + url
+    url = "hidden/itsy/#" + (title || "") + "hidden/itsy/" + url
   } else {
-    url = "/edit"
+    url = "hidden/itsy/edit"
   }
   var hash = location.hash
   if (push || !hash || !hash.length) {
@@ -247,7 +247,7 @@ function copyLink() {
 }
 
 function saveLink() {
-  var url = "hidden/itsy/" + location.hash
+  var url = "/hidden/itsy/" + location.hash
   window.history.pushState(null, null, url);
   location.reload()   
 }
